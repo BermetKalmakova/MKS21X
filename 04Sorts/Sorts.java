@@ -26,6 +26,7 @@ public class Sorts{
 	System.out.println(x);
 	selectionSort(X);
 	System.out.println(X);
+    }
 
 }
 
