@@ -46,7 +46,6 @@ public class Sorts{
 		    count ++;
 		}
 	    }
-	    len--;
 	    if (count == 0){
 		break;
 	    }
@@ -54,7 +53,7 @@ public class Sorts{
     }
 
     public static void main(String args[]){
-	int[] x = {6,3,5,1,4,2,5};
+	int[] x = {5,8,2,4,89,2,0,7};
 	for(int i = 0; i < x.length;i++){
 	    System.out.println(x[i]);
 	}
